@@ -28,10 +28,11 @@
   <body>
     <div class="content">
       <br>
-      <div style="width:290px"> 
+      <div style="width:290px;">
 	<img class="wrap" width = "40px"  src="pictures/proteomaps_label.jpg">&nbsp;&nbsp;  
 	<img class="wrap" width = "210px" src="pictures/eco_Valgepea_2013_48_cost_small.png" usemap="\#proteins">
       </div>  
+      <br>
       <br>
       
       <div>
@@ -46,67 +47,69 @@
 	  polygon areas represent protein abundances, weighted by
 	  protein size.</p>	    
       </div>
-      
-      <p>To open a proteomap, choose an organism and click on a
-	proteomap symbol in the list. The line above the proteomap
-	allows you to navigate between hierarchy levels. Hover the
-	mouse pointer over a map to see the abundance values.</p>
 
-      <p><a href="http://bionic-vis.biologie.uni-greifswald.de">Generate proteomaps from your data</a></p>
+      <p><a href="http://bionic-vis.biologie.uni-greifswald.de">Generate proteomaps from your own data</a>  </p>
 
+      <p>To open one of the  proteomaps below, choose an organism by clicking on the
+	picture and click on a proteomap symbol in the list. The line
+	above the proteomap allows you to navigate between hierarchy
+	levels. Hover the mouse pointer over a map to see the
+	abundance values.</p>
+
+<br>
 
     <table  align="center"><tbody>
 
-      <tr>
-      <td style="background-color:#ffea99; margin-left:100px">
+      <tr><!--ffeabf/-->
+      <td style="background-color:#fff0c8; margin-left:100px">
 
       <table >
 	<tr style="height:10"></tr>
 	<tr>
-	  <td style="width:20px"></td>
+	  <td style="width:10px"></td>
 	  <td class="organismName"><a href="http://en.wikipedia.org/wiki/Mycoplasma_pneumoniae" target="_blank">M. pneumoniae</a></td>
 	  <td  class="organismName"><a href="http://ecocyc.org/" target="_blank">E. coli</a></td>
 	  <td class="organismName"><a href="http://genome.microbedb.jp/cyanobase/Synechocystis" target="_blank">S. sp. 6803</a></td>
 	  <td class="organismName"><a href="http://www.yeastgenome.org/" target="_blank">S. cerevisiae</a></td>
 	  <td class="organismName"><a href="http://www.pombase.org/" target="_blank">S. pombe</a></td>
 	</tr>
-	<td width="20"></td>
+	<td width="10px"></td>
 	
-	<td id="mpn_on" align="center" width="110">
+	<td id="mpn_on" align="center" width="150">
 	  <a href="javascript: void(0);" onclick="hideRow('mpn_on'); showRow('mpn_off'); showRow('title'); showRow('mpn_kuehner');">
 	    <img src="pictures/organisms/M_pneumoniae.png" class="organismImage"></a>
 	</td>
-	<td id="mpn_off" style="display: none"  align="center" width="110">
+	<td id="mpn_off" style="display: none"  align="center" width="150">
 	  <a href="javascript: void(0);" onclick="showRow('mpn_on'); hideRow('mpn_off'); hideRow('mpn_kuehner');">
 	    <img src="pictures/organisms/M_pneumoniae.png" class="organismImage"></a>
 	</td>
 	
-	<td id="eco_on"  align="center" width="110">
+	<td id="eco_on"  align="center" width="150">
 	  <a href="javascript: void(0);" onclick="hideRow('eco_on'); showRow('eco_off'); showRow('title'); showRow('eco_lu'); showRow('eco_arike');  showRow('eco_valgepea11'); showRow('eco_valgepea21');  showRow('eco_valgepea31');  showRow('eco_valgepea40');  showRow('eco_valgepea48'); showRow('eco_Li_complete');  showRow('eco_Li_minimal');  showRow('eco_Li_without_methionine');">
 	    <img src="pictures/organisms/E_coli.png" class="organismImage"></a>
 	</td>
-	<td id="eco_off" style="display: none"  align="center" width="110">
+	<td id="eco_off" style="display: none"  align="center" width="150">
 	  <a href="javascript: void(0);" onclick="showRow('eco_on'); hideRow('eco_off'); hideRow('eco_lu'); hideRow('eco_arike'); hideRow('eco_valgepea11'); hideRow('eco_valgepea21'); hideRow('eco_valgepea31'); hideRow('eco_valgepea40'); hideRow('eco_valgepea48'); hideRow('eco_Li_complete');  hideRow('eco_Li_minimal');  hideRow('eco_Li_without_methionine');">
 	    <img src="pictures/organisms/E_coli.png" class="organismImage"></a>
 	</td>
 	
-	<td id="syn_on"  align="center" width="110">
+	<td id="syn_on"  align="center" width="150">
 	  <a href="javascript: void(0);" onclick="hideRow('syn_on'); showRow('syn_off'); showRow('title'); showRow('syn_wegener');">
 	    <img src="pictures/organisms/Synechocystis.png" class="organismImage"></a>
 		  </td>
-		  <td id="syn_off" style="display: none"  align="center" width="110">
+		  <td id="syn_off" style="display: none"  align="center" width="150">
 		    <a href="javascript: void(0);" onclick="showRow('syn_on'); hideRow('syn_off'); hideRow('syn_wegener');">
 		      <img src="pictures/organisms/Synechocystis.png" class="organismImage"></a>
 		  </td>
 
-		  <td id="sce_on"  align="center" width="110">
+		  <td id="sce_on"  align="center" width="150">
 		    <a href="javascript: void(0);" onclick="hideRow('sce_on'); showRow('sce_off'); showRow('title'); showRow('sce_deGodoy'); showRow('sce_Nagaraj'); showRow('sce_Lu_minimal'); showRow('sce_Lu_rich'); showRow('sce_Newman_minimal'); showRow('sce_Newman_rich'); showRow('sce_legend');"><img src="pictures/organisms/S_cerevisiae.png" class="organismImage"></a></td>
-		  <td id="sce_off" style="display: none"  align="center" width="110">
+		  <td id="sce_off" style="display: none"  align="center" width="150">
 		    <a href="javascript: void(0);" onclick="showRow('sce_on'); hideRow('sce_off'); hideRow('sce_deGodoy'); hideRow('sce_Nagaraj'); hideRow('sce_Lu_minimal'); hideRow('sce_Lu_rich'); hideRow('sce_Newman_minimal'); hideRow('sce_Newman_rich'); hideRow('sce_legend');"><img src="pictures/organisms/S_cerevisiae.png" class="organismImage"></a></td>
 
-		  <td id="spo_on"  align="center" width="110"><a href="javascript: void(0);" onclick="hideRow('spo_on'); showRow('spo_off'); showRow('title'); showRow('spo_Marguerat_proliferating'); showRow('spo_Marguerat_quiescent');">
+		  <td id="spo_on"  align="center" width="150"><a href="javascript: void(0);" onclick="hideRow('spo_on'); showRow('spo_off'); showRow('title'); showRow('spo_Marguerat_proliferating'); showRow('spo_Marguerat_quiescent');">
 		      <img src="pictures/organisms/S_pombe.png" class="organismImage"></a></td>
-		  <td id="spo_off" style="display: none"  align="center" width="110"><a href="javascript: void(0);" onclick="showRow('spo_on'); hideRow('spo_off'); hideRow('spo_Marguerat_proliferating'); hideRow('spo_Marguerat_quiescent');">
+		  <td id="spo_off" style="display: none"  align="center" width="150"><a href="javascript: void(0);" onclick="showRow('spo_on'); hideRow('spo_off'); hideRow('spo_Marguerat_proliferating'); hideRow('spo_Marguerat_quiescent');">
 		      <img src="pictures/organisms/S_pombe.png" class="organismImage"></a></td>
 
 </tr>
@@ -145,7 +148,7 @@
 		  </td>
 		  <td id="hsa_off" style="display: none" align="center" width="105"><a href="javascript: void(0);" onclick="showRow('hsa_on'); hideRow('hsa_off'); hideRow('hsa_Nagaraj'); hideRow('hsa_Beck'); hideRow('hsa_Geiger_2012_A549'); hideRow('hsa_Geiger_2012_GAMG'); hideRow('hsa_Geiger_2012_HEK293'); hideRow('hsa_Geiger_2012_HeLa'); hideRow('hsa_Geiger_2012_HepG2'); hideRow('hsa_Geiger_2012_Jurkat'); hideRow('hsa_Geiger_2012_K562');  hideRow('hsa_Geiger_2012_LnCap'); hideRow('hsa_Geiger_2012_MCF7'); hideRow('hsa_Geiger_2012_RKO'); hideRow('hsa_Geiger_2012_U2OS');  hideRow('hsa_Khan_Human_Protein'); hideRow('hsa_legend');"><img src="pictures/organisms/M_lisa.png" class="organismImage"></a>
 		  </td>
-		  <td width="20"></td>
+		  <td width="10"></td>
 		</tr>
                 <tr height="10"></tr>
 	    </table>
@@ -155,7 +158,7 @@
 
 <table style="width:100%">
 <tr>
-     <td id = "title" style="display:none; background-color:#fff6d8">
+     <td id = "title" style="display:none; background-color:#ffeabf">
 
        <table>
 	 <tbody>
@@ -167,7 +170,7 @@
 	       <strong>Mycoplasma pneumoniae</strong>
 	     </td>
 	     <td style="width:185px">Adherent culture</td>
-	     <td style="width:110px">
+	     <td style="width:130px">
 	       <a href="data_sets/mpn_Kuehner/mpn_Kuehner_cost_lv1.html" target="_blank"><img width="20" src="pictures/symbol_1.jpg"> </a>
 	       <a href="data_sets/mpn_Kuehner/mpn_Kuehner_cost_lv2.html" target="_blank"><img width="20" src="pictures/symbol_2.jpg"></a>
 	       <a href="data_sets/mpn_Kuehner/mpn_Kuehner_cost_lv3.html" target="_blank"><img width="20" src="pictures/symbol_3.jpg"></a>
@@ -184,7 +187,7 @@
 	       <strong>Escherichia coli</strong>
 	     </td>
 	     <td style="width:185px">Glucose-limited chemostat</td>
-	     <td style="width:110px">
+	     <td style="width:130px">
 	       <a href="data_sets/eco_Arike_2012/eco_Arike_2012_cost_lv1.html" target="_blank"><img width="20" src="pictures/symbol_1.jpg"></a>
 	       <a href="data_sets/eco_Arike_2012/eco_Arike_2012_cost_lv2.html" target="_blank"><img width="20" src="pictures/symbol_2.jpg"></a>
 	       <a href="data_sets/eco_Arike_2012/eco_Arike_2012_cost_lv3.html" target="_blank"><img width="20" src="pictures/symbol_3.jpg"></a>
@@ -307,7 +310,7 @@
 <a href="javascript: void(0);" onclick="showRow('syn_on'); hideRow('syn_off'); hideRow('syn_wegener');"> <img src="pictures/cross.jpg"></a>
 <strong>Synechocystis sp. 6803</strong></td>
   <td style="width:185px"></td>
-  <td style="width:110px">
+  <td style="width:130px">
 <a href="data_sets/syn_Wegener/syn_Wegener_cost_lv1.html" target="_blank"><img width="20" src="pictures/symbol_1.jpg"></a>
   <a href="data_sets/syn_Wegener/syn_Wegener_cost_lv2.html" target="_blank"><img width="20" src="pictures/symbol_2.jpg"></a>
   <a href="data_sets/syn_Wegener/syn_Wegener_cost_lv3.html" target="_blank"><img width="20" src="pictures/symbol_3.jpg"></a>
@@ -323,7 +326,7 @@
 <strong>Saccharomyces cerevisiae</strong>
  </td>
  <td style="width:185px">Rich medium</td>
- <td style="width:110px">
+ <td style="width:130px">
 <a href="data_sets/sce_Nagaraj/sce_Nagaraj_cost_lv1.html" target="_blank"><img width="20" src="pictures/symbol_1.jpg"></a>
   <a href="data_sets/sce_Nagaraj/sce_Nagaraj_cost_lv2.html" target="_blank"><img width="20" src="pictures/symbol_2.jpg"></a>
   <a href="data_sets/sce_Nagaraj/sce_Nagaraj_cost_lv3.html" target="_blank"><img width="20" src="pictures/symbol_3.jpg"></a>
@@ -395,7 +398,7 @@
  <strong>Schizosaccharomyces pombe</strong>
 </td>
   <td style="width:185px">Proliferating cells</td>
-  <td style="width:110px">
+  <td style="width:130px">
 <a href="data_sets/spo_Marguerat_proliferating/spo_Marguerat_proliferating_cost_lv1.html" target="_blank"><img width="20" src="pictures/symbol_1.jpg"></a>
   <a href="data_sets/spo_Marguerat_proliferating/spo_Marguerat_proliferating_cost_lv2.html" target="_blank"><img width="20" src="pictures/symbol_2.jpg"></a>
   <a href="data_sets/spo_Marguerat_proliferating/spo_Marguerat_proliferating_cost_lv3.html" target="_blank"><img width="20" src="pictures/symbol_3.jpg"></a>
@@ -422,7 +425,7 @@
 </a><strong>Arabidopsis thaliana</strong>
 </td>
   <td style="width:185px">Tissue sample</td>
-  <td style="width:110px">
+  <td style="width:130px">
 <a href="data_sets/ath_Castellana/ath_Castellana_cost_lv1.html" target="_blank"><img width="20" src="pictures/symbol_1.jpg"></a>
   <a href="data_sets/ath_Castellana/ath_Castellana_cost_lv2.html" target="_blank"><img width="20" src="pictures/symbol_2.jpg"></a>
   <a href="data_sets/ath_Castellana/ath_Castellana_cost_lv3.html" target="_blank"><img width="20" src="pictures/symbol_3.jpg"></a>
@@ -438,7 +441,7 @@
 <strong>Drosophila melanogaster</strong>
 </td>
   <td style="width:185px"></td>
-  <td style="width:110px"><a href="data_sets/dme_Brunner_2007/dme_Brunner_2007_cost_lv1.html" target="_blank"><img width="20" src="pictures/symbol_1.jpg"></a>
+  <td style="width:130px"><a href="data_sets/dme_Brunner_2007/dme_Brunner_2007_cost_lv1.html" target="_blank"><img width="20" src="pictures/symbol_1.jpg"></a>
   <a href="data_sets/dme_Brunner_2007/dme_Brunner_2007_cost_lv2.html" target="_blank"><img width="20" src="pictures/symbol_2.jpg"></a>
   <a href="data_sets/dme_Brunner_2007/dme_Brunner_2007_cost_lv3.html" target="_blank"><img width="20" src="pictures/symbol_3.jpg"></a>
   <a href="data_sets/dme_Brunner_2007/dme_Brunner_2007_cost_lv5.html" target="_blank"><img width="20" src="pictures/symbol_p.jpg"></a></td>
@@ -453,7 +456,7 @@
 <strong>Mus musculus</strong>
 </td>
  <td style="width:185px">Adrenal gland</td>
- <td style="width:110px">
+ <td style="width:130px">
   <a href="data_sets/mmu_Geiger_adrenal_gland/mmu_Geiger_adrenal_gland_cost_lv1.html" target="_blank"><img width="20" src="pictures/symbol_1.jpg"></a>
   <a href="data_sets/mmu_Geiger_adrenal_gland/mmu_Geiger_adrenal_gland_cost_lv2.html" target="_blank"><img width="20" src="pictures/symbol_2.jpg"></a>
   <a href="data_sets/mmu_Geiger_adrenal_gland/mmu_Geiger_adrenal_gland_cost_lv3.html" target="_blank"><img width="20" src="pictures/symbol_3.jpg"></a>
@@ -767,7 +770,7 @@
 <strong>Pan troglodytes</strong>
 </td>
   <td style="width:185px">Lymphoblastoid cells</td>
-  <td style="width:110px"><a href="data_sets/hsa_Khan_Chimpanzee_Protein/hsa_Khan_Chimpanzee_Protein_cost_lv1.html" target="_blank"><img width="20" src="pictures/symbol_1.jpg"></a>
+  <td style="width:130px"><a href="data_sets/hsa_Khan_Chimpanzee_Protein/hsa_Khan_Chimpanzee_Protein_cost_lv1.html" target="_blank"><img width="20" src="pictures/symbol_1.jpg"></a>
   <a href="data_sets/hsa_Khan_Chimpanzee_Protein/hsa_Khan_Chimpanzee_Protein_cost_lv2.html" target="_blank"><img width="20" src="pictures/symbol_2.jpg"></a>
   <a href="data_sets/hsa_Khan_Chimpanzee_Protein/hsa_Khan_Chimpanzee_Protein_cost_lv3.html" target="_blank"><img width="20" src="pictures/symbol_3.jpg"></a>
   <a href="data_sets/hsa_Khan_Chimpanzee_Protein/hsa_Khan_Chimpanzee_Protein_cost_lv5.html" target="_blank"><img width="20" src="pictures/symbol_p.jpg"></a></td>
@@ -781,7 +784,7 @@
 <a href="javascript: void(0);" onclick="showRow('hsa_on'); hideRow('hsa_off'); hideRow('hsa_Nagaraj'); hideRow('hsa_Beck'); hideRow('hsa_Geiger_2012_A549'); hideRow('hsa_Geiger_2012_GAMG'); hideRow('hsa_Geiger_2012_HEK293'); hideRow('hsa_Geiger_2012_HeLa'); hideRow('hsa_Geiger_2012_HepG2'); hideRow('hsa_Geiger_2012_Jurkat'); hideRow('hsa_Geiger_2012_K562');  hideRow('hsa_Geiger_2012_LnCap'); hideRow('hsa_Geiger_2012_MCF7'); hideRow('hsa_Geiger_2012_RKO'); hideRow('hsa_Geiger_2012_U2OS'); hideRow('hsa_Khan_Human_Protein'); hideRow('hsa_legend');"> <img src="pictures/cross.jpg"></a>
 <strong>Homo sapiens</strong></td>
     <td style="width:185px">HeLa cell line</td>
-    <td style="width:110px">
+    <td style="width:130px">
       <a href="data_sets/hsa_Nagaraj_2011/hsa_Nagaraj_2011_cost_lv1.html" target="_blank"><img width="20" src="pictures/symbol_1.jpg"></a>
       <a href="data_sets/hsa_Nagaraj_2011/hsa_Nagaraj_2011_cost_lv2.html" target="_blank"><img width="20" src="pictures/symbol_2.jpg"></a>
       <a href="data_sets/hsa_Nagaraj_2011/hsa_Nagaraj_2011_cost_lv3.html" target="_blank"><img width="20" src="pictures/symbol_3.jpg"></a>

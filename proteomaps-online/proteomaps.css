@@ -4,7 +4,7 @@ body {background-color:#ffffff; color: #404040; font-size: 14px; margin-left:6px
 
 .content       {margin-left:10px; margin-right:10px; max-width: 800px; margin:auto;}
 .pp            {margin-left:10px; width:800px;} /* text mit fester breite  */
-.organismImage {width:100px;}
+.organismImage {width:130px;}
 .organismName  {text-align:center; width:120px;}
 
 h1,h2,h3,h4,p,ul,ol,li,div,td,th,address,blockquote,nobr,b,i { font-family:Arial,sans-serif; }
